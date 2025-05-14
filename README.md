@@ -1,15 +1,20 @@
-# Yapay Zeka ile Tarif Üretici 🧑🍳
+# AI Recipe Maker 🍳
 
-Bu proje, yemek tarifi malzemelerini öğrenerek yeni tarifler oluşturan bir yapay zeka modelidir.
+Make new food recipes with computer help! This program learns from example recipes and creates new ingredient lists.
 
-## Nasıl Çalışır? 🤖
-- JSON dosyasındaki tarifleri okur
-- Malzeme kombinasyonlarını öğrenir
-- Başlangıç kelimesine göre yeni tarifler üretir
-- Örnek: "Tavuk" ile başlatılırsa tavuklu yemek tarifleri oluşturur
+## What It Does ✨
+- Reads recipes from JSON file
+- Learns ingredient patterns
+- Makes new recipes from starting words
+- Example: Type "Chicken" to get chicken recipes
 
-## Kurulum 🔧
-1. Python'u indirin: [python.org](https://www.python.org/)
-2. Gerekli kütüphaneleri yükleyin:
+## Needs 📦
+- Python 3.x
+- TensorFlow library
+- NumPy library
+
+## Install 🔧
+1. Get Python: [python.org](https://www.python.org/)
+2. Add libraries:
 ```bash
 pip install tensorflow numpy
