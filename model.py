@@ -61,7 +61,6 @@ model.summary()
 
 # Train model and save weights
 history = model.fit(X, y, epochs=1000, verbose=1)
-model.save("tarifler.h5")
 
 def generate_recipe(seed_text, next_words=10, temperature=0.7):
     """
